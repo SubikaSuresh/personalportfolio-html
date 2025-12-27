@@ -1,0 +1,13 @@
+.album {
+  padding: 40px;
+}
+
+.album-header {
+  display: flex;
+  gap: 30px;
+}
+
+.album-header img {
+  width: 220px;
+  border-radius: 20px;
+}

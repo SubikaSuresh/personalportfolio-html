@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About – Subika </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  -<link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="about.css" />
+  <script>
+    function toggleNav() {
+      const links = document.querySelector('.nav-links');
+      if (links) links.classList.toggle('open');
+    }
+  </script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <span class="logo-dot"></span>
+        <span>SUBIKA>S</span>
+      </div>
+      <button class="nav-toggle" onclick="toggleNav()">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact" class="nav-cta">Let’s talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container split-grid">
+        <div>
+          <div class="section-kicker">About</div>
+          <h1 class="section-title">Developer with a passion for AI.</h1>
+
+          <div class="about-block">
+            <h3>Short story</h3>
+            <p>
+              Fullstack developer and student who enjoys turning complex ideas into simple,
+              friendly interfaces. Comfortable moving between design tools and code editors.
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3>What I enjoy</h3>
+            <p>
+              Building wellness and climate‑focused products, experimenting with subtle
+              motion, and designing flows that feel intuitive on mobile first.
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3>Skills</h3>
+            <div class="chip-row">
+              <span class="chip">HTML · CSS · JS</span>
+              <span class="chip">React · Vite</span>
+              <span class="chip">Responsive layout</span>
+              <span class="chip">API integration</span>
+              <span class="chip">UI prototyping</span>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="contact-panel">
+            <h3>Snapshot</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-title">B.Tech student</div>
+                <div class="timeline-meta">Artificial Intelligence and Data Science · Current</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-title">ChillPill wellness app</div>
+                <div class="timeline-meta">Side project · Fullstack</div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-title">Carbonaut eco‑task app</div>
+                <div class="timeline-meta">Side project · Web App</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-panel" style="margin-top: 1.5rem;">
+            <h3>Outside the editor</h3>
+            <p class="section-sub">
+              Enjoys exploring new dev tools, sketching UI ideas, and learning how AI can
+              support everyday wellness and sustainability.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © 2025 Subika S · Portfolio
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.sidebar {
+  background: #000;
+  padding: 25px;
+}
+
+.sidebar h2 {
+  color: #1db954;
+  margin-bottom: 30px;
+}
+
+.sidebar nav a {
+  display: block;
+  margin-bottom: 15px;
+  color: #bbb;
+}
+
+.sidebar nav a:hover {
+  color: #fff;
+}
+
+.library {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+.library span {
+  display: block;
+  margin-top: 10px;
+}

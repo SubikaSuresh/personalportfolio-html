@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects – Subika</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <link rel="stylesheet" href="base.css" />
+ <link rel="stylesheet" href="projects.css" />
+  <script>
+    function toggleNav() {
+      const links = document.querySelector('.nav-links');
+      if (links) links.classList.toggle('open');
+    }
+  </script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <span class="logo-dot"></span>
+        <span>SUBIKA S</span>
+      </div>
+      <button class="nav-toggle" onclick="toggleNav()">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="index.html#contact" class="nav-cta">Let’s talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Work</div>
+            <h1 class="section-title">Interfaces &amp; experiments.</h1>
+          </div>
+          <p class="section-sub">
+            A mix of shipped side projects and UI explorations. Each project focuses on
+            clear structure, responsive layout and small details that make the experience
+            feel polished. [web:36]
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
+                alt="ChillPill app dashboard preview"
+              />
+            </div>
+            <div class="project-tag">Wellness · Web app</div>
+            <h3 class="project-title">ChillPill – Guided breaks</h3>
+            <p class="section-sub" style="margin-top: 0.4rem;">
+              A calm interface that suggests short breathing breaks, mood check‑ins and
+              micro‑habits during long coding sessions.
+            </p>
+            <p class="project-meta">
+              Role: Frontend · Backend
+              <span>React · Node</span>
+            </p>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.pexels.com/photos/3738733/pexels-photo-3738733.jpeg"
+                alt="Carbonaut eco-tasks dashboard preview"
+              />
+            </div>
+            <div class="project-tag">Climate · Productivity</div>
+            <h3 class="project-title">Carbonaut – Weekly eco tasks</h3>
+            <p class="section-sub" style="margin-top: 0.4rem;">
+              Task manager that turns everyday actions into small carbon‑saving missions
+              with streaks, badges and a social feed.
+            </p>
+            <p class="project-meta">
+              Role: Product · UX · UI
+              <span>React · MySQL</span>
+            </p>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.pexels.com/photos/1181465/pexels-photo-1181465.jpeg"
+                alt="Chatbot interface preview"
+              />
+            </div>
+            <div class="project-tag">AI · Chat</div>
+            <h3 class="project-title">Greeny – Eco chat coach</h3>
+            <p class="section-sub" style="margin-top: 0.4rem;">
+              Conversational assistant that gently nudges users toward sustainable habits,
+              built with a custom backend and friendly tone.
+            </p>
+            <p class="project-meta">
+              Role: GenAI · Flows
+              <span>Express · SQL</span>
+            </p>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg"
+                alt="UI playground preview"
+              />
+            </div>
+            <div class="project-tag">Playground · Motion</div>
+            <h3 class="project-title">UI playground – Micro‑interactions</h3>
+            <p class="section-sub" style="margin-top: 0.4rem;">
+              Collection of hover states, cards and transitions exploring subtle motion
+              inspired by modern Dribbble shots.
+            </p>
+            <p class="project-meta">
+              Role: Experiments
+              <span>HTML · CSS</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © 2025 Subika S · Projects
+    </div>
+  </footer>
+</body>
+</html>

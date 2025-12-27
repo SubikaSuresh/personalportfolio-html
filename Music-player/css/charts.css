@@ -1,0 +1,18 @@
+.charts {
+  padding: 40px;
+}
+
+.track {
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr 40px;
+  align-items: center;
+  background: #181818;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.rank {
+  color: #1db954;
+  font-weight: bold;
+}

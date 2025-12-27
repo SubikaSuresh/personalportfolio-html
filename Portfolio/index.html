@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subika – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="home.css" />
+  <script>
+    function toggleNav() {
+      const links = document.querySelector('.nav-links');
+      if (links) links.classList.toggle('open');
+    }
+  </script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <span class="logo-dot"></span>
+        <span>SUBIKA S</span>
+      </div>
+      <button class="nav-toggle" onclick="toggleNav()">☰</button>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact" class="nav-cta">Let’s talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-pill">
+            <span class="hero-pill-dot"></span>
+            <span>Portfolio 2025</span>
+          </div>
+          <h1 class="hero-title">
+            Crafting clean interfaces for thoughtful <span>experiences</span>.
+          </h1>
+          <p class="hero-subtitle">
+            Fullstack developer turning ideas into responsive web experiences with a
+            focus on clarity, motion and accessibility.Passionate about AI and Machinne Learning.
+          </p>
+
+          <div class="hero-tags">
+            <span class="hero-tag">React &nbsp;·&nbsp; JavaScript</span>
+            <span class="hero-tag">UI Design</span>
+            <span class="hero-tag">Web Animations</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="projects.html" class="btn-primary">View projects</a>
+            <a href="#contact" class="btn-ghost">Download CV</a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <strong>3+</strong>
+              <div>Personal projects</div>
+            </div>
+            <div>
+              <strong>1</strong>
+              <div>Tech stacks</div>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <div>Responsive design</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="hero-avatar-wrap">
+            <img
+              src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+              alt="Portrait placeholder"
+              class="hero-avatar"
+            />
+          </div>
+          <div class="hero-chip">
+            <span class="hero-chip-dot"></span>
+            <span>Available for opportunities</span>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span>Focus</span>
+              <strong>Fullstack &amp; AI & ML</strong>
+            </div>
+            <div class="hero-stat">
+              <span>Location</span>
+              <strong>Tamil Nadu, IN</strong>
+            </div>
+            <div class="hero-stat">
+              <span>Current stack</span>
+              <strong>React · Node</strong>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Featured projects preview -->
+    <section class="section">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <div class="section-kicker">Selected work</div>
+            <h2 class="section-title">Recent projects</h2>
+          </div>
+          <p class="section-sub">
+            A quick look at some interfaces and products built recently, from wellness apps
+            to eco‑focused task managers.
+          </p>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg"
+                alt="ChillPill wellness app preview"
+              />
+            </div>
+            <div class="project-tag">Wellness · Product</div>
+            <h3 class="project-title">ChillPill – Mindful breaks</h3>
+            <p class="project-meta">
+              UI &nbsp;·&nbsp; Fullstack
+              <span>2025</span>
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg"
+                alt="Carbonaut dashboard preview"
+              />
+            </div>
+            <div class="project-tag">Climate · Productivity</div>
+            <h3 class="project-title">Carbonaut – Eco tasks</h3>
+            <p class="project-meta">
+              UX · Dashboard
+              <span>2025</span>
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://images.pexels.com/photos/2706379/pexels-photo-2706379.jpeg"
+                alt="Experimental UI preview"
+              />
+            </div>
+            <div class="project-tag">Playground</div>
+            <h3 class="project-title">Micro‑interactions lab</h3>
+            <p class="project-meta">
+              Prototypes
+              <span>2024</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section class="section" id="contact">
+      <div class="container split-grid">
+        <div>
+          <header class="section-head">
+            <div>
+              <div class="section-kicker">Let’s work together</div>
+              <h2 class="section-title">Have an idea in mind?</h2>
+            </div>
+          </header>
+          <p class="section-sub">
+            Open to internships, freelance collaborations and interesting side projects
+            around wellness, sustainability and education.
+          </p>
+        </div>
+
+        <div class="contact-panel">
+          <h3>Contact</h3>
+          <div class="contact-list">
+            <p>Email: <strong><a href="mailto:subikasuresh2007@gmail.com">subikasuresh2007@gmail.com</a></strong></p>
+
+<p>GitHub: <strong>
+  <a href="https://github.com/Subikasuresh" target="_blank">
+    github.com/Subikasuresh
+  </a>
+</strong></p>
+
+<p>LinkedIn: <strong>
+  <a href="https://www.linkedin.com/in/subika-suresh" target="_blank">
+    linkedin.com/in/subika-suresh
+  </a>
+</strong></p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © 2025 Subika S · Crafted with HTML &amp; CSS
+    </div>
+  </footer>
+</body>
+</html>

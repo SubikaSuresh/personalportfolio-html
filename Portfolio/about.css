@@ -1,0 +1,11 @@
+/* css/about.css */
+
+/* About page specific styles can stay minimal; most is in base.css */
+
+.about-hero {
+  padding: 3.5rem 0 3rem;
+}
+
+.about-hero .section-title {
+  max-width: 30rem;
+}
